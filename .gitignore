@@ -1,0 +1,17 @@
+# Virtual environment
+.venv/
+
+# Dataset files (too large for GitHub)
+data/raw/
+data/processed/
+
+# Model binaries
+models/
+*.joblib
+
+# Cache files
+__pycache__/
+.ipynb_checkpoints/
+*.pkl
+*.log
+*.DS_Store

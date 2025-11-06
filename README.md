@@ -29,25 +29,4 @@ It uses the [Give Me Some Credit](https://www.kaggle.com/c/GiveMeSomeCredit) dat
 
 ---
 
-## 📂 Project Structure'
-credit-risk/
-│
-├── app/
-│ └── streamlit_app.py # Streamlit UI
-│
-├── src/
-│ ├── data_load_and_eda.py # Step 1: load + explore data
-│ ├── model_logistic.py # Step 2: logistic regression baseline
-│ ├── model_xgboost.py # Step 3: XGBoost + SHAP + SMOTE
-│ └── save_pipeline.py # Save model pipeline for deployment
-│
-├── data/
-│ ├── raw/credit_data.csv # Dataset (not uploaded to GitHub)
-│ └── processed/ # Cleaned / sample files
-│
-├── models/
-│ └── credit_xgb_pipeline.joblib # Saved model pipeline
-│
-├── requirements.txt
-├── README.md
-└── .venv/
+
